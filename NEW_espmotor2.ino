@@ -137,12 +137,12 @@ void loop() {
   // Most of the time, you can rely on the implicit casts.
   // In other case, you can do root["time"].as<long>();
   
-//  int status = json_parsed["status"];
-//  
-// 
-//  Serial.print("Status = ");
-//  Serial.println(status);
-//
+  int status = json_parsed["status"];
+ 
+
+  Serial.print("Status = ");
+  Serial.println(status);
+
 
  
 //  int value = LOW;
