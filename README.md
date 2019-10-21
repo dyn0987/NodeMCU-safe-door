@@ -14,6 +14,8 @@ update.php and update2.php is used to reset password if user wanted to after ent
 
 The getdata.php is used to observe the newest status of the user input, whether it succeed or not. It will output status=1 if succeed and status=0 if the password is false. It will output null after some time after cron job has done its part.
 
+NodeMCU.ino is for executing the program on Arduino IDE to program the NodeMCU.
+
 NodeMCU will make request to the getdata.php and based on the JSON output, will either open or close the safe door.
 
 
